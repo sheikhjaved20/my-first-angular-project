@@ -11,7 +11,7 @@ a,a:hover{text-decoration:none}
 input{outline:0}
 .common_wrapper{max-width:600px;margin:0 auto}
 .viewlogin{position:relative}
-body{overflow-x:hidden}
+body{overflow-x:hidden; font-family:Montserrat,arial;}
 .top_bg{ background-color:#14253B; height:55px;}
 a.active{color:red}
 .footer{background-color:#14253b;position:fixed;bottom:0;left:0;width:100%}
@@ -23,9 +23,14 @@ a.active{color:red}
 .footer>ul>li a{display:block;color:#fff;font-family:Montserrat,arial;font-size:15px;font-weight:800;line-height:18px;text-align:center;padding:10px}
 .ellipse{height:361px;width:361px;background-color:#d0def2;border-radius:100%;bottom:0;right:-180px;z-index:-1;position:fixed;overflow:hidden}
 .ellipse2{height:266px;width:266px;background-color:#d0def2;border-radius:100%;bottom:-75px;left:-130px;z-index:-1;position:fixed;overflow:hidden}
-
+.click-here{display: inline-block; color: #000; font-weight: bold; padding-bottom: 15px;}
+.PA15{padding:15px; height: 50px;}
 /* a{color:#fff; padding:20px; display: inline;}
 ul li { display: inline;} */
+  .back{background-color: #D0DEF2; padding:15px 20px; display:inline-block;  color: #26374C;
+    font-family: "Montserrat",arial;
+    font-weight:800;
+    font-size: 15px;}
 @media screen and (max-width:767px){
     .common_wrapper, .footer > ul{max-width: 100%;}
 }
