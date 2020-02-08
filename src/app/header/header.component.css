@@ -1,0 +1,4 @@
+.top_bg{ background-color:#14253B; height:55px;}
+a{color:#fff; padding:20px; display: inline;}
+ul li { display: inline;}
+a.active{color:red}

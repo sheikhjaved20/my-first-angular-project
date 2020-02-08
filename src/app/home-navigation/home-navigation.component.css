@@ -1,0 +1,22 @@
+.home_tabs {max-width:600px; display:flex; padding-top:15%;  flex-flow: row wrap; }
+  .home_tabs > li{height: 156px; padding:0px 15px; width:50%;  margin:15px 0; } 
+  .home_tabs > li a{ border-radius: 10px; display:block;height: 156px; padding:10px; color: #FFF;  position:relative;
+  font-family: "Montserrat";
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  font-weight:800;}
+ .home_tabs > li .one {
+  background: linear-gradient(134.68deg, #00FF94 0%, #5900FF 100%);
+}
+ .home_tabs > li .two {
+  background: linear-gradient(134.68deg, #FFA51F 0%, #6900FF 100%);
+}
+.home_tabs > li .three {
+  background: linear-gradient(134.68deg, #FF00C7 0%, #00B2FF 100%);
+}
+
+.home_tabs > li .four {
+  border-radius: 10px;
+  background: linear-gradient(134.68deg, #FFB000 0%, #FF00CF 100%);
+}

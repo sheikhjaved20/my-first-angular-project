@@ -1,0 +1,56 @@
+
+.top_titlebg {
+    background: linear-gradient(134.68deg, #FFA51F 0%, #6900FF 100%);
+    color: #FFF;
+    font-family: "Montserrat",arial;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    padding:15px 20px;
+    font-weight:800;
+  }
+  
+  .filter_box {background-color: #E7F1FF; /*box-shadow: 2px 2px 30px 0 #C5D2E3;*/ padding:20px;}
+  .filter_box ul{max-width:600px; margin:0 auto;}
+  .filter_box li{float:left; width:50%; padding-right:10px;color: #14253B;font-family: "Montserrat",arial;font-size: 15px; font-weight:500;}
+  .filter_box li:last-child{padding-right:0px;}
+  .fil_title{color: #14253B;font-family: "Montserrat",arial; font-weight:600;}
+  .TAC{text-align:center;}
+  .record_list{background-color:#fff;}
+  .record_list > li{ padding:10px; background-color:#fff;border-radius: 5px; color: #14253B; font-family: "Montserrat";font-size: 15px; font-weight:500;}
+  .record_list > li:nth-child(odd){background-color: #E7F1FF;}
+  .record_list > li a{color: #14253B;}
+  .btn_edit {
+    box-sizing: border-box;
+    border: 1px solid #14253B;
+    border-radius: 5px;
+    background: linear-gradient(134.68deg, #DAE6F7 0%, #E7F1FF 52%, #E7F1FF 100%);
+    padding:15px;
+    color: #14253B;
+    font-family: "Montserrat",arial;
+    font-size: 14px;
+    font-weight:800;
+    display:inline-block;
+    text-align:center;
+  }
+  .delete{color: #F94062;}
+  .MT20{margin-top:20px;}
+  .filter_table{padding:20px;}
+.filter_table th{background-color: #D0DEF2;border-top: 1px solid #14253B; padding:15px 10px;  color: #14253B;
+  font-family: "Montserrat"; font-weight:500;
+  font-size: 15px; text-align:left;}
+  .filter_table th:first-child{ border-radius:5px 0 0 0; text-align:center;}
+  .filter_table th:last-child{ border-radius:0px 5px 0 0;}
+  .filter_table td{background-color:#fff; padding:10px;  color: #14253B;
+  font-family: "Montserrat"; font-weight:500;
+  font-size: 15px; vertical-align:top; word-break: break-all;}
+  .filter_table td:first-child{text-align:center;}
+  .filter_table td a{color:#5100C4;}
+  .back{background-color: #D0DEF2; padding:15px 20px; display:inline-block;  color: #26374C;
+    font-family: "Montserrat",arial;
+    font-weight:800;
+    font-size: 15px;}
+    .store{padding:20px 15px;}
+    .store th{background-color: #5100C4; color:#fff; padding:5px; }
+    .store td{padding:5px; background-color:transparent;}
+    .store tbody tr:nth-child(even){background-color: #D0DEF2;}
